@@ -90,11 +90,11 @@
     "xtend": "^4.0.2"
   },
   "scripts": {
-    "build": "tsc"
-    "start": "node ./dist/application.js"
+    "build": "tsc",
+    "start": "node ./dist/application.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc --watch",
-    "dev": "pm2 start process.json && pm2 logs",
+    "dev": "pm2 start process.json && pm2 logs"
   },
   "author": "",
   "license": "ISC",
