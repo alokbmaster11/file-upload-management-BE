@@ -90,12 +90,11 @@
     "xtend": "^4.0.2"
   },
   "scripts": {
-    "start": "tsc && nodemon src/server.ts",
-    "dev": "ts-node-dev --respawn src/server.ts",
+    "build": "tsc"
+    "start": "node ./dist/application.js"
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc --watch",
     "dev": "pm2 start process.json && pm2 logs",
-    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
